@@ -1,0 +1,58 @@
+
+
+/* Основное содержимое приложения */
+.App1 {
+    flex: 1; /* Это заставит содержимое растягиваться, занимая доступное пространство */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Убедитесь, что body и root контейнер занимают всю высоту экрана */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; /* Обеспечиваем растяжение на всю высоту экрана */
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer nav a {
+    margin: 0 10px;
+    padding: 0;
+    color: blue;
+    display: contents;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    color: black;
+}
+
+footer ul li a {
+    display: contents;
+    margin-right: 10px;
+    color: blue;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+}
