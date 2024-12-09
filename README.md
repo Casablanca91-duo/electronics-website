@@ -83,7 +83,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Установка
 
-git clone https://github.com/ваш-репозиторий.git
+git clone https://github.com/Casablanca91-duo/electronics-website
 
 npm install
 
